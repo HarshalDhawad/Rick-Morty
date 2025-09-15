@@ -1,0 +1,8 @@
+query GetSearch($filter: FilterCharacter) {
+  characters(filter: $filter) {
+    results {
+      name
+      image
+    }
+  }
+}
